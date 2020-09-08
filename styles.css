@@ -194,9 +194,11 @@ nav {
 }
 
 .activities-grid {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
+  z-index: -1;
 }
 
 .activities-grid-item {
